@@ -1,0 +1,489 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'IBM Plex Sans',sans-serif;
+}
+ul,ol{
+    list-style-type: none;
+}
+a{
+    text-decoration: none;
+}
+.container{
+    width: 1320px;
+    margin: 0 auto;
+}
+h1,h2,h3,h4,h5,h6,p{
+    line-height: 0.8;
+}
+.common-btn{
+    display: inline-block;
+    padding: 18px 50px;
+    background-color: #fff;
+    color: #FF9600;
+    font-size: 18px;
+    font-weight: 700;
+    text-transform: capitalize;
+    border-radius: 4px;
+    transition: all linear 0.3s;
+}
+.common-btn:hover{
+    background-color: #FF9600;
+    color: #fff;
+}
+.sub-heading{
+    font-size: 30px;
+    color: #14B9F1;
+    font-weight: 400;
+    font-family: 'Yellowtail',cursive;
+}
+.pera{
+    font-size: 18px;
+    color: #222;
+    font-weight: 400;
+    line-height: 150%;
+}
+/* ======== Navbar Start Here ======== */
+#Navbar{
+    padding: 20px 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    z-index: 555;
+}
+.nav-wrapper{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    column-gap: 50px;
+
+}
+.logo{
+    width: 20%;
+}
+.menu{
+    width: 60%;
+}
+.nav-btn{
+    width: 20%;
+    text-align: right;
+}
+.menu ul{
+    display: flex;
+    align-items: center;
+    column-gap: 49px;
+}
+.menu ul li a{
+    font-size: 18px;
+    font-weight: 700;
+    text-transform: capitalize;
+    color: #fff;
+    transition:all  linear 0.3s;
+}
+
+.menu ul li a:hover{
+
+    color: #FF9600;
+}
+
+/* ======== Navbar End Here ======== */
+
+/* ======== Banner Start Here ======== */
+#Banner{
+    background:url(../images/skating.jpg);
+    padding: 250px 0 155px 0;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+
+}
+.banner-wrapper h1{
+    font-weight: 700;
+    font-size: 72px;
+    text-transform: capitalize;
+    line-height: 150%;
+    color: #fff;
+    width: 820px;
+    text-align: center;
+    margin: 0 auto;
+
+}
+.banner-btn{
+    margin-top: 55px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 20px;
+}
+.bannershape{
+    width: 100%;
+    position: absolute;
+    left: 0;
+    bottom: -4px;
+    overflow: hidden;
+
+}
+
+/* ======== Banner End Here ======== */
+
+/* ======== About Start Here ======== */
+#About{
+    padding: 72px 0 85px 0;
+}
+.about-wrapper{
+    display: flex;
+    column-gap: 24px;
+    align-items: center;
+
+}
+.about-content{
+    width:100%
+
+}
+.about-content h2{
+    font-size:54px ;
+    font-weight: 700;
+    color:#222 ;
+    padding: 5px 0 62px 0;
+     line-height: 140%;
+position: relative;
+}
+.about-content h2::after{
+    position: absolute;
+    top: 0;
+    bottom: 27px;
+    width: 80px;
+    height: 2px;
+    color:#A0A0A0;
+    content: "";
+}
+.about-content ul{
+    margin-top: 40px;
+    flex-direction: column;
+    display: flex;
+    row-gap: 30px;
+
+}
+.about-content .round{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    color:#EEEEEE;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.about-content ul li{
+    display: flex;
+    column-gap: 23px;
+    align-items: center;
+}
+
+.about-image{
+    width: 648px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.about-image .img-box{
+    height: 620px;
+    width: 300px;
+    overflow: hidden;
+    border-radius: 5px;
+
+}
+.about-image .img-box:last-child{
+    height: 520px;
+}
+.about-image .img-box img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.rating-box{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+.rating-box .box{
+    
+    
+    width: 312px;
+    height: 215px;
+    
+}
+.rating-box .box h5 {
+     font-weight: 700;
+     font-size: 80px;
+     padding: 40px 84px 76px 84px;
+}
+.rating-box .box h1{
+    font-weight: 400;
+    font-size: 18px;
+    bottom: -30px;
+
+}
+.rating-box .box:first-child{
+    background-color: #FFF4E5;
+
+}
+.rating-box .box:nth-child(2){
+    background-color: #E7FDE9;
+}
+.rating-box .box:nth-child(3){
+  background-color: #F2F2FD;
+}
+.rating-box .box:nth-child(4){
+    background-color: #FDF1F5;
+}
+
+/* ======== About End Here ======== */
+/* ======== Extreme part start here =====*/
+.extreme-wrapper{
+    display: flex;
+    column-gap: 165px;
+}
+#extreme {
+    background-color: #0F4152;
+    width: 100%;
+    height: 1835px;
+}
+.content h3{
+    color: #FF9600;
+    padding: 102px 0 5px 0;
+
+}
+.content h2{
+    color: #EEEEEE;
+    line-height: 150%;
+    position: relative;
+    width: 395px;
+    font-weight: 700;
+    font-size: 54px;
+    line-height: 70px;
+}
+.content h2::after{
+    position: absolute;
+    top: 0;
+    bottom: 27px;
+    width: 80px;
+    height: 2px;
+    color:#A0A0A0;
+    content: "";
+}
+.para p{
+    color: #EEEEEE;
+    padding: 165px 0 145px 0;
+    width: 638px;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 24px;
+    
+}
+.main-box{
+    width:1320px;
+    height: 1070px;
+    display: flex;
+    justify-content: space-around;
+    column-gap: 25px;
+    flex-direction: column;
+    flex-wrap: wrap;
+    overflow: hidden;
+    
+}
+.main-box .box1{
+    height: 510px;
+    width: 425px;
+    background-color: #C4C4C4;
+}
+.main-box .box1 img{
+    width: 425px;
+    height: 365px;
+}
+.main-box .box1 h4{
+    color: #E7FDE9;
+    font-size: 30px;
+    text-align: center;
+    padding: 25px 0 25px 0;
+}
+.main-box .box1 p{
+    color: #E7FDE9;
+    text-align: center;
+}
+.main-box .box2{
+    height: 510px;
+    width: 425px;
+    background-color: #C4C4C4;
+}
+.main-box .box2 h4{
+    color: #E7FDE9;
+    font-size: 30px;
+    text-align: center;
+    padding: 25px 0 25px 0;
+}
+.main-box .box2 p{
+    color: #E7FDE9;
+    text-align: center;
+}
+.main-box .box3{
+    height: 510px;
+    width: 425px;
+    background-color: #C4C4C4;
+}
+.main-box .box3 h4{
+    color: #E7FDE9;
+    font-size: 30px;
+    text-align: center;
+    padding: 25px 0 25px 0;
+}
+.main-box .box3 p{
+    color: #E7FDE9;
+    text-align: center;
+}
+.main-box .box4{
+    height: 510px;
+    width: 425px;
+    background-color: #C4C4C4;
+}
+.main-box .box4 h4{
+    color: #E7FDE9;
+    font-size: 30px;
+    text-align: center;
+    padding: 25px 0 25px 0;
+}
+.main-box .box4 p{
+    color: #E7FDE9;
+    text-align: center;
+}
+.main-box .box5{
+    height: 510px;
+    width: 425px;
+    background-color: #C4C4C4;
+}
+.main-box .box5 h4{
+    color: #E7FDE9;
+    font-size: 30px;
+    text-align: center;
+    padding: 25px 0 25px 0;
+}
+.main-box .box5 p{
+    color: #E7FDE9;
+    text-align: center;
+}
+.main-box .box6{
+    height: 510px;
+    width: 425px;
+    background-color: #C4C4C4;
+}
+.main-box .box6 h4{
+    color: #E7FDE9;
+    font-size: 30px;
+    text-align: center;
+    padding: 25px 0 25px 0;
+}
+.main-box .box6 p{
+    color: #E7FDE9;
+    text-align: center;
+}
+#sub-heading{
+    color: #EEEEEE;
+    font-size: 160px;
+    font-family: 'Yellowtail',cursive;
+    font-weight: 400;
+    line-height: 200%;
+    margin: 0 auto;
+    align-items: center;
+}
+.main-box picture img{
+    bottom: -140px;
+}
+.extreme-shape{
+    width: 100%;
+    
+}
+.extreme-shape img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    bottom: -500px;
+}
+.shape {
+    width: 100%;
+}
+/* ======== Extreme part end here =====*/
+/* ======== video start here =======*/
+.video{
+    background-color: #FF9600;
+    height: 1132px;
+    width: 100%;
+    position:absolute;
+    overflow: hidden;
+    
+
+}
+.video img{
+    width: 100px;
+    height: 75px;
+    padding: 110px 0 26px 0;
+}
+.video h4{
+    color: #EEEEEE;
+    font-size: 54px;
+text-align: center;
+top: -21px;
+width: 1298px;
+height: 140px;
+text-align: center;
+}
+.video h1{
+    color: #E7FDE9;
+    font-size: 30px;
+    text-align: center;
+    padding: 40px 0 60px 0;
+    text-align: center;
+}
+.video-btn{
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 20px;
+    
+    
+}
+.video-box{
+    display: flex;
+    padding-top: 100px;
+    align-items: center;
+    
+    column-gap: 23px;
+}
+ .video-box .box1{
+    width: 425px;
+    height: 470px;
+    background-image: url(../images/video1.png);
+}
+.video-box .box2{
+    width: 425px;
+    height: 470px;
+    background-image: url(../images/video2.png);
+}
+.video-box .box3{
+    width: 425px;
+    height: 470px;
+    background-image:url(../images/video3.png);
+}
+
+/* ========video end here ========= */
+/* =========Chhose part start here =======*/
+.choose .container{
+    background-color: #A0A0A0;
+    height: 816px;
+    width: 1920px;
+
+}
+/* =========Chhose part end here =======*/
+
